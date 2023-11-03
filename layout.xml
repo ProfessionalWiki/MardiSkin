@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<structure xmlns="https://ProfessionalWiki.github.io/chameleon/schema/3.5/layout.rng">
+
+	<component type="NavbarHorizontal" class="navbar-metamenu bg-white sticky-top">
+		<component type="Html">
+			<div id="marditopleft">
+				<a href="/">Mathematical Research Data Initiative</a>
+			</div>
+		</component>
+		<component type="Html">
+			<a class="twitter-link" href="https://twitter.com/mardi4nfdi" target="_blank">
+				<img src="/skins/MardiSkin/twitter.svg"/>
+			</a>
+		</component>
+		<component type="SearchBar" class="order-first order-cmln-0" position="left" buttons="go"/>
+	</component>
+
+	<component type="NavbarHorizontal" class="navbar-main sticky-top">
+		<component type="NavMenu" flatten="navigation"/>
+		<component type="PageTools" class="flex-row" position="right" hideSelectedNameSpace="yes"/>
+		<component type="PersonalTools" position="right"/>
+	</component>
+
+	<grid class="flex-fill">
+		<row>
+			<cell>
+				<component type="SiteNotice"/>
+			</cell>
+		</row>
+
+		<row>
+			<cell>
+				<component type="MainContent"/>
+			</cell>
+		</row>
+	</grid>
+
+	<grid class="mb-2 mt-4" mode="fluid">
+		<row>
+			<cell>
+				<component type="NavbarHorizontal" collapsible="no" class="small mb-2" >
+					<component type="Toolbox" flatten="no" class="dropup"/>
+					<component type="LangLinks" flatten="no" class="dropup"/>
+				</component>
+			</cell>
+		</row>
+	</grid>
+
+	<grid class="footer" mode="fluid">
+		<row>
+			<cell>
+				<component type="FooterInfo"/>
+				<component type="FooterPlaces"/>
+			</cell>
+			<cell>
+				<component type="FooterIcons" class="justify-content-end"/>
+			</cell>
+		</row>
+	</grid>
+</structure>
