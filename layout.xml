@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<structure xmlns="https://ProfessionalWiki.github.io/chameleon/schema/3.5/layout.rng">
+<structure xmlns="https://ProfessionalWiki.github.io/chameleon/schema/3.6/layout.rng">
 
 	<component type="NavbarHorizontal" class="navbar-metamenu bg-white sticky-top">
 		<component type="Html">
@@ -16,7 +16,7 @@
 	</component>
 
 	<component type="NavbarHorizontal" class="navbar-main sticky-top">
-		<component type="NavMenu" flatten="navigation"/>
+		<component type="NavMenu" flatten="navigation" showActive="yes"/>
 		<component type="PageTools" class="flex-row" position="right" hideSelectedNameSpace="yes"/>
 		<component type="PersonalTools" position="right"/>
 	</component>

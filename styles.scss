@@ -55,7 +55,8 @@
 	}
 
 	&.p-navbar .nav-link:hover,
-	&.p-navbar .nav-link:active {
+	&.p-navbar .nav-link:active,
+	&.p-navbar .nav-link.active {
 		color: #005eaa;
 		background: #fff;
 	}
