@@ -1,5 +1,9 @@
 .navbar-metamenu {
 	padding: 0;
+
+	&.p-navbar .navbar-form {
+		padding: 0;
+	}
 }
 
 #marditopleft {
@@ -32,6 +36,17 @@
 	vertical-align: top;
 }
 
+#searchInput {
+	background-color: #eee;
+	border-radius: 0;
+	border: 0;
+	box-shadow: none;
+}
+
+#searchGoButton {
+	border-radius: 0;
+	border: 0;
+}
 
 .navbar-main {
 	top: 40px;

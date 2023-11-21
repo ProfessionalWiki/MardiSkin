@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <structure xmlns="https://ProfessionalWiki.github.io/chameleon/schema/3.6/layout.rng">
 
-	<component type="NavbarHorizontal" class="navbar-metamenu bg-white sticky-top">
+	<component type="NavbarHorizontal" class="navbar-metamenu bg-white sticky-top" collapsible="no">
 		<component type="Html">
 			<div id="marditopleft">
 				<a href="/">Mathematical Research Data Initiative</a>
@@ -12,7 +12,7 @@
 				<img src="/skins/MardiSkin/twitter.svg"/>
 			</a>
 		</component>
-		<component type="SearchBar" class="order-first order-cmln-0" position="left" buttons="go"/>
+		<component type="SearchBar" position="left" buttons="go"/>
 	</component>
 
 	<component type="NavbarHorizontal" class="navbar-main sticky-top">
