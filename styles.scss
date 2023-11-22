@@ -36,16 +36,32 @@
 	vertical-align: top;
 }
 
+#p-search {
+	width: 390px;
+}
+
 #searchInput {
 	background-color: #eee;
 	border-radius: 0;
 	border: 0;
 	box-shadow: none;
+	height: calc(1.5em + 0.75rem + 4px);
+
+	&::placeholder {
+		color: #a8a8a8;
+	}
+
+	&:focus-visible::placeholder {
+		color: #6c6c6c;
+	}
 }
 
 #searchGoButton {
 	border-radius: 0;
 	border: 0;
+	box-shadow: none;
+	background: #eee;
+	color: #a8a8a8;
 }
 
 .navbar-main {
