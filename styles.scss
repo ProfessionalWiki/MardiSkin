@@ -93,7 +93,21 @@
 	}
 }
 
+h1, h2 {
+	font-weight: bold;
+}
+
 .footer {
 	background-color: #999;
 	padding-top: 180px;
+
+	a {
+		color: #fff;
+		font-weight: bold;
+
+		&:hover {
+			text-decoration: none;
+			color: #005eaa;
+		}
+	}
 }
