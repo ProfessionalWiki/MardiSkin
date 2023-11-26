@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <structure xmlns="https://ProfessionalWiki.github.io/chameleon/schema/3.6/layout.rng">
 
-	<component type="NavbarHorizontal" class="navbar-metamenu bg-white sticky-top" collapsible="no">
-		<component type="Html">
+	<component type="NavbarHorizontal" class="navbar-metamenu bg-white sticky-top">
+		<component type="Html" position="head">
 			<div id="marditopleft">
 				<a href="/">Mathematical Research Data Initiative</a>
 			</div>

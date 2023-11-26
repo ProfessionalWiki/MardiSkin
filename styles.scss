@@ -1,29 +1,51 @@
+/**
+ * Header
+ */
+
 .navbar-metamenu {
 	padding: 0;
+	height: 40px;
+	z-index: 1030;
 
 	&.p-navbar .navbar-form {
 		padding: 0;
+	}
+
+	.navbar-collapse {
+		background: #fff;
+	}
+}
+
+@include media-breakpoint-down(cmln) {
+	.navbar-metamenu .navbar-nav {
+		display: flex;
+		flex-direction: row;
+	}
+}
+@include media-breakpoint-down(sm) {
+	.navbar-metamenu .navbar-nav {
+		width: 100%;
 	}
 }
 
 #marditopleft {
 	display: inline-block;
-	//overflow: hidden;
-	border-right: 2px solid #ccc;
 	color: $mardi-orange;
 	font-weight: bold;
 	padding-left: 20px;
 	padding-right: 20px;
-
 	line-height: 40px;
 }
 
+@include media-breakpoint-up(cmln) {
+	#marditopleft {
+		border-right: 2px solid #ccc;
+	}
+}
 
 #marditopleft a {
 	color: $mardi-orange;
 	text-decoration: none;
-
-	//line-height: 40px;
 }
 
 .twitter-link img {
@@ -38,6 +60,12 @@
 
 #p-search {
 	width: 390px;
+}
+
+@include media-breakpoint-down(sm) {
+	#p-search {
+		width: 100%;
+	}
 }
 
 #searchInput {
@@ -68,16 +96,12 @@
 	top: 40px;
 	background-color: #bfd7ea;
 	padding: 0;
+	height: 40px;
 
 	&.p-navbar .nav-link {
 		color: #fff;
 		font-weight: bold;
 		font-size: 16px;
-		//width: 140px;
-		border-right: 2px solid #fff;
-		// ???
-		//min-width: 140px;
-		//text-align: left;
 	}
 
 	// Hide main menu icons
@@ -85,21 +109,59 @@
 		display: none;
 	}
 
-	&.p-navbar .nav-link:hover,
-	&.p-navbar .nav-link:active,
-	&.p-navbar .nav-link.active {
-		color: #005eaa;
-		background: #fff;
+	@include media-breakpoint-up(cmln) {
+		&.p-navbar .nav-link {
+			border-right: 2px solid #fff;
+		}
+
+		&.p-navbar .nav-link:hover,
+		&.p-navbar .nav-link:active,
+		&.p-navbar .nav-link.active {
+			color: #005eaa;
+			background: #fff;
+		}
 	}
+
+	.navbar-toggler {
+		margin: calc(7px - 0.1rem) 0;
+	}
+
+	.navbar-collapse {
+		background-color: #bfd7ea;
+	}
+}
+
+#pt-anonuserpage {
+	padding: 0.25rem 1.5rem;
+	@include icon(fas fa-user);
+
+	&:before {
+		margin-right: 1rem;
+		display: inline-block;
+		text-decoration: none;
+	}
+}
+
+/**
+ * Content
+ */
+
+html {
+	scroll-padding-top: 80px;
+	overflow-x: hidden;
 }
 
 h1, h2 {
 	font-weight: bold;
 }
 
+
+/**
+ * Footer
+ */
+
 .footer {
 	background-color: #999;
-	padding-top: 180px;
 
 	a {
 		color: #fff;
