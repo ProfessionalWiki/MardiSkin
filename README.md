@@ -4,7 +4,7 @@ TODO
 
 ## Dependencies
 
-Install [Chameleon skin](https://github.com/ProfessionalWiki/chameleon/).
+Install [Chameleon skin](https://github.com/ProfessionalWiki/chameleon/), at least version 4.3.0.
 
 ## Installation
 Clone this repo into `skins/MardiSkin`.
