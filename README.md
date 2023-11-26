@@ -1,7 +1,5 @@
 # MardiSkin
 
-TODO
-
 ## Dependencies
 
 Install [Chameleon skin](https://github.com/ProfessionalWiki/chameleon/), at least version 4.3.0.
