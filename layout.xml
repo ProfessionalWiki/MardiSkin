@@ -7,11 +7,6 @@
 				<a href="/">Mathematical Research Data Initiative</a>
 			</div>
 		</component>
-		<component type="Html">
-			<a class="twitter-link" href="https://twitter.com/mardi4nfdi" target="_blank">
-				<img src="/skins/MardiSkin/twitter.svg"/>
-			</a>
-		</component>
 		<component type="SearchBar" position="left" buttons="go"/>
 	</component>
 
