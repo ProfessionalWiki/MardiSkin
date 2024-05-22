@@ -4,7 +4,7 @@
 	<component type="NavbarHorizontal" class="navbar-metamenu bg-white sticky-top">
 		<component type="Html" position="head">
 			<div id="marditopleft">
-				<a href="/">Mathematical Research Data Initiative</a>
+				<a href="https://mardi4nfdi.de/">Mathematical Research Data Initiative</a>
 			</div>
 		</component>
 		<component type="SearchBar" position="left" buttons="go"/>
